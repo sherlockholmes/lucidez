@@ -1,0 +1,203 @@
+/*
+Theme Name: Lucidez
+Theme URI: www.desarrollamas.com
+Description: Noticias Lucidez
+Version: 1.00
+Author: DesarrollaMas.com
+Author URL: www.desarrollamas.com
+*/
+/****** FONT CONFIG ******/
+.container {
+    background: white;
+-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.5);}
+
+@font-face {
+    font-family:'Trebuchet MS';
+    src: url('../fuentes/trebuc.ttf');
+}
+body{  font-family:'Trebuchet MS';}
+header{padding-top:18px;color:#6d6d6d; height:auto; font-family:'Trebuchet MS'}
+header input{font-family:'Trebuchet MS'}
+footer{ background:#f0f0f0!important;color:#292929; font-size:11px; box-shadow:none!important}
+footer label:nth-child(odd){font-size:11px; font-weight:bold}
+footer label:nth-child(even){font-size:11px}
+
+ul, ol{margin-left: 0}
+
+h4.icon{background:#020202 url(../img/tech/icon.jpg) no-repeat left top; color:white; padding:26px}
+
+
+.tech{ position:relative}
+.tech p{background:rgba(0,0,0,.7); width:70%;color:white; position:absolute; bottom:0; padding:0 10px; font-family:Arial; font-size:14px}
+.tech span{font-style:oblique; font-size:11px; display:block}
+.tech2{ position:relative}
+.tech2 p{background:rgba(0,0,0,.7); width:80%;color:white; position:absolute; bottom:0; padding:0 10px; font-family:Arial; font-size:14px}
+.tech2 span{font-style:oblique; font-size:9px; display:block}
+.bgtech{background:url("../img/life/bg.jpg") repeat-y}
+
+.life{ position:relative}
+.life p{background:rgba(255,255,255,.7); width:70%;color:#323232; position:absolute; top:20px; right:0; padding:0 10px; font-family:Arial; font-size:18px}
+.life span{font-style:oblique; font-size:11px; display:block}
+.life2{ position:relative}
+.life2 p{background:rgba(255,255,255,.7); width:80%;color:#323232; position:absolute; top:20px; right:0; padding:0 10px; font-family:Arial; font-size:18px}
+.life2 span{font-style:oblique; font-size:9px; display:block}
+.bglife{background:url("../img/life/bg.jpg") repeat-y}
+
+.tribuna{ position:relative}
+.tribuna p{background:rgba(255,255,255,.7); width:70%;color:#323232; position:absolute; top:20px; right:0; padding:0 10px; font-family:Arial; font-size:18px}
+.tribuna span{font-style:oblique; font-size:11px; display:block}
+.tribuna2{ position:relative}
+.tribuna2 p{background:#474b8c; width:80%;color:white; position:absolute; bottom:0px;left:0; padding:0 10px; font-family:Arial; font-size:18px}
+.tribuna2 span{font-style:oblique; font-size:9px; display:block}
+.tribuna2 .fecha{font-style:oblique; font-size:9px; display:block; position:absolute; right:5px ; bottom:0}
+#tribuna ul{ list-style:none}
+#tribuna ul li{ margin:10px 5px; }
+#tribuna ul li a{ background:#f1f1f1; color:#292929; display:block; vertical-align:middle;padding:6px; text-transform:uppercase; font-size:12px }
+#tribuna ul li a:hover{ background:#474b8c; color:#fff; }
+#vistas{overflow-y:scroll; height:800px}
+
+.gourmet{ position:relative}
+.gourmet p{background:rgba(0,0,0,.7); width:70%;color:white; position:absolute; bottom:0; padding:0 10px; font-family:Arial; font-size:18px}
+.gourmet span{font-style:oblique; font-size:11px; display:block}
+.gourmet2{ position:relative}
+.gourmet2 p{background:rgba(0,0,0,.7); width:80%;color:white; position:absolute; bottom:0; padding:0 10px; font-family:Arial; font-size:14px}
+.gourmet2 span{font-style:oblique; font-size:9px; display:block}
+.bggourmet{background:url("../img/gourmet/bg.jpg") repeat-y}
+.white{ background:white}
+
+#rankin{ background:#e10500;padding:10px}
+#rankin p{text-align:left}
+
+#hoy{ background:#56c0b7;padding:10px}
+#hoy p:before{content:open-quote; font-size:50px; color:#9dc689; float:left}
+#hoy p:after{content:close-quote;font-size:50px; color:#9dc689; float: right}
+#hoy p{margin:15px;color:#6a6a6a;quotes:"'<' '>'"}
+#life h4{ background:#b7d7a8;}
+#life a{ background:white; padding:10px; color:#b1b1b1; margin-bottom:10px}
+
+.articulo {margin-bottom: 30px;}
+#articulo .fecha{text-transform:uppercase; color:#6d6d6d; font-size:14px; text-align: left}
+#articulo h2{color:#292929;border: 0; text-transform: none;margin:0 ;font-family: Arial; text-align:left;font-size: 50px; font-weight: normal;}
+#articulo h3{margin:0; padding:0;color:#a0a0a0; background: none; text-align: left;font-family: Arial; font-size: 26px; text-transform: none}
+#articulo .fuentefoto{background:rgba(0,0,0,.6); color:white; padding:5px; position:absolute; bottom:0; text-align:right;width:98.5%;}
+#articulo .cdrfotografo{border-left:1px solid #e0e0e0; color:#8a8a8a; font-size:12px;line-height:16px; padding:10px;margin:10px 0}
+#articulo .fotografo{font-size:14px;}
+#articulo .profesion{ font-style:oblique;font-size:11px}
+#articulo .fechaart{color:#8a8a8a; text-align:right; display:block; width:99%}
+.articulo p{color:#292929; font-size: 15px; text-align:justify;}
+.margenart{padding:30px}
+
+.editorial { height: 700px; overflow-y: scroll; padding: 20px}
+.editorial img {float: left; margin: 10px}
+#editorial .fecha{float: none;color: #959595; font-style:oblique; font-size: 14px}
+#editorial a:hover{}
+
+#principios .parrafo p{color:#292929; font-size: 16px; text-align:justify; text-align: justify;}
+#principios ol{list-style-type: lower-latin; margin-right: 20px; font-size: 16px}
+#principios ol li{ margin:20px 0}
+
+#terminos .parrafo{height: 500px; overflow-y:scroll }
+#terminos h5{text-align: left; display: inline-block}
+#terminos .parrafo p{color:#292929; font-size: 12px; text-align:justify; text-align: justify;}
+#terminos ol li ol li{ margin-bottom: 15px}
+#terminos ol { 
+	counter-reset: item;
+}
+#terminos li { 
+	display: block;
+}
+#terminos li:before { 
+	counter-increment: item;
+	content: counters(item, ".") ".";}
+
+
+#myCarousel p{font-style:italic;color:#8b8b8b}
+.dos{bottom:0px; padding:40%;}
+#categoria img{width:100%}
+#categoria .categoria{position:relative}
+#categoria h6{right: 0px; position: absolute; bottom: 0; margin: 0px; font-size: 11px; text-transform: uppercase; line-height: 14px; padding: 0px 24px;}
+#categoria .parrafo{bottom: 0px; color: white; font-size: 12px; padding: 3% 8%; background: #292929; line-height: 12px; min-height:24px}
+#categoria p{margin-bottom:0; color:#8b8b8b; font-style:italic;font-size:11px; line-height:14px; padding:5px}
+#categoria .autor{text-align:right; text-transform:uppercase}
+#categoria .span25:hover{ background:#292929; color:#a5c15c!important}
+
+#categoria2 img{width:100%}
+#categoria2 .categoria{position:relative}
+#categoria2 h6{right: 0px; position: absolute; bottom: 0; margin: 0px; font-size: 11px; text-transform: uppercase; line-height: 14px; padding: 0px 24px;}
+#categoria2 .parrafo{bottom: 0px; color: white; font-size: 12px; padding: 3% 8%; background: #292929; line-height: 12px; min-height:24px}
+#categoria2 p{margin-bottom:0; color:#8b8b8b; font-style:italic;font-size:11px; line-height:14px; padding:5px}
+#categoria2 .autor{text-align:right; text-transform:uppercase}
+#categoria2 .span2:hover{ background:#292929; color:#a5c15c!important}
+
+
+#columnistas{font-size:11px}
+#columnistas span{color:#999999}
+#columnistas .imgizq{float:left; margin-right:4px;}
+#columnistas .imgder{float:right; margin-left:4px;}
+
+.politica { background:#73b6e4}
+.nacional { background:#a5c15c}
+.economia { background:#d0af4b}
+.cultura { background:#ab6caa}
+.deporte { background:#d04c4b}
+.mundo{ background:#dd9446}
+
+#ultimo .cuadro{position:relative; font-size:11px}
+#ultimo .cat{ position:absolute; padding:0 10px;color:#292929; top:0; left:0; font-weight:normal}
+.ultimo{overflow-y:scroll; height:900px; position:relative}
+#ultimo h6{font-weight:bold; margin:0}
+#ultimo span{ position:absolute;color:#b2b2b2; top:0; right:0}
+#ultimo h3{margin:0}
+#ultimo img{float:left; margin-right:4px; background:red}
+#ultimo{background:#f8f8f8}
+#ultimo .autor{text-align:right; text-transform:uppercase}
+#ultimo p{margin-bottom:0; color:#8b8b8b; font-style:italic;}
+#ultimo .margen2:hover{padding:0; background:#292929!important;color:#fbfbfb}
+
+#editorial .edi{margin-bottom:0; color:#8b8b8b; font-style:italic; font-size:12px;}
+#editorial span{float:right; font-size:11px;color:#b2b2b2; }
+#editorial h5{font-family:Arial;text-align:left; text-transform:none; font-weight:normal;margin-bottom: 0; margin-top: 20px; font-size:15px; color:#292929}
+#editorial button{background:white; color:#949494; border:0; margin-bottom:8px}
+
+.banner {background:#f8f8f8}
+.banner  h4{margin:0}
+
+.row-fluid{margin-bottom:6px;}
+.logo{margin-top:33px; margin-bottom:31px}
+.rsocial{margin-top:39px; margin-right:21px}
+.rsocial a{ margin-left:4px}
+.clima img, .clima span{ margin-left:10px}
+.margen{margin:0 10px}
+.margen2{margin:15px!important; position:relative}
+.sombra{-webkit-box-shadow:1px 3px 4px -2px rgba(50, 50, 50, 0.3);
+-moz-box-shadow:1px 3px 4px -2px rgba(50, 50, 50, 0.3);
+box-shadow:1px 3px 4px -2px rgba(50, 50, 50, 0.3);}
+.sombrac{-webkit-box-shadow: -2px 0px 2px -1px rgba(50, 50, 50, 0.2), 2px 0px 2px -1px rgba(50, 50, 50, 0.2);
+-moz-box-shadow:    -2px 0px 2px -1px rgba(50, 50, 50, 0.2),2px 0px 2px -1px rgba(50, 50, 50, 0.2);
+box-shadow:         -2px 0px 2px -1px rgba(50, 50, 50, 0.2),2px 0px 2px -1px rgba(50, 50, 50, 0.2);}
+
+.phorizontal{background:#ccc;color:#b1b1b1;text-align:center; padding:5px 0}
+.banner101{background:#ccc;color:#b1b1b1;text-align:center; padding:40px 0}
+.banner300{background:#ccc;color:#b1b1b1;text-align:center; padding:80px 0}
+.banner262{background:#ccc;color:#b1b1b1;text-align:center; padding:50px 0}
+..banner262:hover,.banner300:hover,.phorizontal:hover, .banner101:hover {color:white!important;-webkit-box-shadow: inset 0px 0px 20px 0px rgba(50, 50, 50, 0.7);
+-moz-box-shadow:    inset 0px 0px 20px 0px rgba(50, 50, 50, 0.7);
+box-shadow:         inset 0px 0px 20px 0px rgba(50, 50, 50, 0.7);
+}
+/*ALINEACION*/
+.derecha{text-align:right!important}
+.centrar{text-align:center!important}
+.izquierda{text-align:left!important}
+
+/*SECCION*/
+#cultura .active>a{color:#ab6caa;}
+#cultura h4{border-right:21px solid #ab6caa}
+#cultura .categoria>h6{background:#ab6caa}
+#cultura .carousel-indicators>.active{background:#ab6caa}
+
+#economica .active>a{color:#d0af4b;}
+#economica h4{border-right:21px solid #d0af4b}
+#economica .categoria>h6{background:#d0af4b}
+#economica .carousel-indicators>.active{background:#d0af4b}

@@ -3916,7 +3916,11 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav > li > a {
-  display: block;
+  width: auto;
+  display: table-cell;
+  width: 1%;
+  float: none;
+  text-align: center;
 }
 
 .nav > li > a:hover,
@@ -4326,8 +4330,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar {
-  *position: relative;
-  *z-index: 2;
+  padding: 0; 
   margin-bottom: 16px;
   overflow: visible;
 }
@@ -4552,11 +4555,10 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar .nav {
-  position: relative;
-  left: 0;
-  display: block;
-  float: left;
-  margin: 0 10px 0 0;
+  display: table;
+  float: none;
+  margin: 0;
+  width: 100%;
 }
 
 .navbar .nav.pull-right {
@@ -4565,11 +4567,15 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar .nav > li {
-  float: left;
+  display: table-cell;
+  width: 1%;
+  float: none;
+  text-align: center;
 }
 
 .navbar .nav > li > a {
-    font-family:Calibri; font-size:18px;
+  font-family:Futura; 
+  font-size: medium;
   float: none;
   padding: 8px 28%;
   color: #777777;
@@ -4773,12 +4779,41 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .navbar-text {
   color: #999999;
 }
-
-.navbar-inverse .nav > li > a:focus,
-.navbar-inverse .nav > li > a:hover {
-  color: #fdad00;
+.navbar-inverse .nav > li.menu-politica > a:focus,
+.navbar-inverse .nav > li.menu-politica > a:hover {
+  color: #73B6E3;
   background-color: transparent;
-}
+ }
+
+.navbar-inverse .nav > li.menu-economia > a:focus,
+.navbar-inverse .nav > li.menu-economia > a:hover {
+  color: #D1AF4B;
+  background-color: transparent;
+ }
+
+.navbar-inverse .nav > li.menu-nacional > a:focus,
+.navbar-inverse .nav > li.menu-nacional > a:hover {
+  color: #DD9447;
+  background-color: transparent;
+ }
+
+.navbar-inverse .nav > li.menu-mundo > a:focus,
+.navbar-inverse .nav > li.menu-mundo > a:hover {
+  color: #A3C15F;
+  background-color: transparent;
+ }
+
+.navbar-inverse .nav > li.menu-deporte > a:focus,
+.navbar-inverse .nav > li.menu-deporte > a:hover {
+  color: #D04C4A;
+  background-color: transparent;
+ }
+
+.navbar-inverse .nav > li.menu-cultura > a:focus,
+.navbar-inverse .nav > li.menu-cultura > a:hover {
+  color: #AC6CA9;
+  background-color: transparent;
+ }
 
 .navbar-inverse .nav .active > a,
 .navbar-inverse .nav .active > a:hover,
