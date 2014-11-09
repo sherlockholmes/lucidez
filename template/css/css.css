@@ -1,3 +1,12 @@
+/*
+Theme Name: Lucidez
+Theme URI: www.desarrollamas.com
+Description: Noticias Lucidez
+Version: 1.00
+Author: DesarrollaMas.com
+Author URL: www.desarrollamas.com
+*/
+/****** FONT CONFIG ******/
 .container {
     background: white;
 -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
@@ -161,7 +170,19 @@ h4.icon{background:#020202 url(../img/tech/icon.jpg) no-repeat left top; color:w
 .rsocial a{ margin-left:4px}
 .clima img, .clima span{ margin-left:10px}
 .margen{margin:0 10px}
-.margen2{margin:15px!important; position:relative}
+.margen2 {
+	margin:15px!important;
+	position:relative;
+	text-align: justify;
+	text-justify: inter-word;
+}
+.margen-carousel {
+	margin:20px 35px 20px 35px!important;
+	padding-bottom: 100%
+	position:relative;
+	text-align: justify;
+	text-justify: inter-word;
+}
 .sombra{-webkit-box-shadow:1px 3px 4px -2px rgba(50, 50, 50, 0.3);
 -moz-box-shadow:1px 3px 4px -2px rgba(50, 50, 50, 0.3);
 box-shadow:1px 3px 4px -2px rgba(50, 50, 50, 0.3);}
