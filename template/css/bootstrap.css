@@ -829,8 +829,8 @@ h6.carousel-user {
   color:#575757; 
   font-weight:normal;
   font-family:"Futura";
-  text-align: right;
-  padding-right: 35px;
+  position: absolute;
+  margin: 144px 0px 0px 180px !important;
 }
 
 h1 small {
