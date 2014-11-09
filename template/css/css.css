@@ -115,7 +115,10 @@ h4.icon{background:#020202 url(../img/tech/icon.jpg) no-repeat left top; color:w
 
 #myCarousel p{font-style:italic;color:#8b8b8b}
 .dos{bottom:0px; padding:40%;}
-#categoria img{width:100%}
+#categoria img{
+	width:100%;
+	height: 130px;
+}
 #categoria .categoria{position:relative}
 #categoria h6{right: 0px; position: absolute; bottom: 0; margin: 0px; font-size: 11px; text-transform: uppercase; line-height: 14px; padding: 0px 24px;}
 #categoria .parrafo{bottom: 0px; color: white; font-size: 12px; padding: 3% 8%; background: #292929; line-height: 12px; min-height:24px}
